@@ -1,0 +1,55 @@
+.mini-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 20px;
+}
+
+.mini-nav div:hover {
+  color: purple;
+  cursor: pointer;
+}
+
+.main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main-nav .nav-logo img {
+  width: 100px;
+}
+
+.main-nav .nav-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-nav .nav-search input {
+  width: 40vw;
+  height: 40px;
+}
+
+.main-nav .nav-search img {
+  width: 50px;
+  height: 40px;
+}
+
+.main-nav .nav-discount img {
+  width: 200px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+/*# sourceMappingURL=index.css.map */

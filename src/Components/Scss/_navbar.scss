@@ -1,0 +1,41 @@
+.mini-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  div {
+    &:hover {
+      color: purple;
+      cursor: pointer;
+    }
+  }
+}
+
+.main-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  .nav-logo {
+    img {
+      width: 100px;
+    }
+  }
+  .nav-search {
+    display: flex;
+
+    input {
+      width: 40vw;
+      height: 40px;
+    }
+
+    img {
+      width: 50px;
+      height: 40px;
+    }
+  }
+
+  .nav-discount {
+    img {
+      width: 200px;
+    }
+  }
+}
